@@ -16,7 +16,10 @@ public class carrera {
     private double costeTotal;
     private int propina;
 
-    public Carrera(String tarjetaCredito) {}
+    public Carrera(String tarjetaCredito) {
+        return this.tarjetaCredito;
+
+    }
 
     public String getTarjetaCredito() { return null; }
 

@@ -3,7 +3,7 @@ package edu.teamrocket.cotox.conductores;
 
 import java.util.ArrayList;
 
-public class conductor {
+public class Conductor {
 
     private String nombre;
     private String modelo;
@@ -12,29 +12,43 @@ public class conductor {
     private boolean ocupado;
     private ArrayList<Byte> valoraciones;
 
-    public Conductor() {}
+    public Conductor(
 
-    public Conductor(String nombre) {}
 
-    public String getNombre() { return null; }
 
-    public String getModelo() { return null; }
+    ) {}
+
+    public Conductor(String nombre) {
+
+
+    }
+
+    public String getNombre() { return this.nombre; }
+
+    public String getModelo() { return this.modelo; }
 
     public void setModelo(String modelo) {}
 
-    public String getMatricula() { return null; }
+    public String getMatricula() { return this.matricula; }
 
-    public void setMatricula(String matricula) {}
+    public void setMatricula(String matricula) {
+    }
 
-    public double getValoracion() { return 0; }
+    public double getValoracion() { return this.valoracionMedia / ; }
 
-    public int getNumeroValoraciones() { return 0; }
+    public int getNumeroValoraciones() {
+        int cantidadValoracion = this.valoraciones.size();
+        return cantidadValoracion
+                ; }
 
     public void setValoracion(byte valoracion) {}
 
     public double calcularValoracionMedia() { return 0; }
 
-    public void setOcupado(boolean ocupado) {}
+    public void setOcupado(boolean ocupado) {
+        ;
+
+    }
 
     public boolean isOcupado() { return false; }
 
